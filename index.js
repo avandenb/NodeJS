@@ -19,6 +19,6 @@ app.all('*', function(request, response) {
     response.send('404 - Not found');
 })
 
-app.listen(process.env.port ||3000, function() {
+app.listen(process.env.PORT ||3000, function() {
     console.log('Server app is listening on port 3000');
 })
